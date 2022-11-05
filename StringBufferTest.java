@@ -1,9 +1,3 @@
-package com.coreJava;
-
-/*
- * Methods in the StringBuffer class are synchronized in nature. Use it in thread safe programs.
-*/
-
 public class StringBufferTest {
 
 	public static void main(String[] args) {
@@ -46,10 +40,6 @@ public class StringBufferTest {
 		System.out.println("SB3 hashcode: "+sb3.hashCode());
 		
 		StringBuffer str1 = new StringBuffer("oswal");
-		System.out.println(str1.capacity());
-		
-
-		
+		System.out.println(str1.capacity());		
 	}
-
 }
