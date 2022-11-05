@@ -38,8 +38,5 @@ public class StringBufferTest {
 		
 		sb3.insert(0, "Hello SB3");
 		System.out.println("SB3 hashcode: "+sb3.hashCode());
-		
-		StringBuffer str1 = new StringBuffer("oswal");
-		System.out.println(str1.capacity());		
 	}
 }
