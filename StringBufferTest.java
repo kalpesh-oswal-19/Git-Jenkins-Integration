@@ -38,5 +38,7 @@ public class StringBufferTest {
 		
 		sb3.insert(0, "Hello SB3");
 		System.out.println("SB3 hashcode: "+sb3.hashCode());
+		
+		System.out.println("only commit");
 	}
 }
