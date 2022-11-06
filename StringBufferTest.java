@@ -39,6 +39,6 @@ public class StringBufferTest {
 		sb3.insert(0, "Hello SB3");
 		System.out.println("SB3 hashcode: "+sb3.hashCode());
 		
-		System.out.println("pull from remote repo again");
+		System.out.println("pull from remote repo again and again");
 	}
 }
